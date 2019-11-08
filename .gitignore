@@ -1,0 +1,10 @@
+.idea/*
+*.jar
+*.class
+*.zip
+*.tar
+*.tgz
+*.gz
+*.DS_Store
+image/training_files/backup/
+
