@@ -23,6 +23,6 @@ docker run -p 5001:5001 connect4ai
 | /mlp/train | Create and train a new model | owner, id, train_file, input, hidden, output, nb_epochs |
 | /mlp/predict | Predict via a trained model | player, board |
 | /mlp/status | Get the status of a model | owner, id |
-| /mlp/stop | Stop a model traning | owner, id |
+| /mlp/stop | Stop a training model | owner, id |
 | /mlp/remove | Remove a model | owner, id |
 | /mlp/check_consistency | Check the consistency of a training file with respect to a model | trainingfile, nbinputs, nboutputs |
